@@ -1,16 +1,64 @@
-# React + Vite
+# GitHub Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A  web application for exploring GitHub profiles and repositories. Search for users, view their detailed profiles, and browse their projects with ease.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **User Search:** Find any GitHub user instantly.
+- **Detailed Profiles:** View comprehensive user profiles, including stats like followers, following, and public repositories.
+- **Repository Browser:** Explore a user's repositories with options to sort and filter.
+- **Favourites:** Keep track of your favorite developers by adding them to your personal Favourites list.
+- **Recent Searches:** Quickly access your recent search history.
+- **Responsive Design:** A beautiful and functional interface that works on all screen sizes, from mobile to desktop.
+- **Rate Limit Awareness:** The app smartly handles GitHub API rate limits, keeping you informed.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** [React](https://react.dev/) with [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) for utility-first styling.
+- **UI Components:** Built with [Radix UI](https://www.radix-ui.com/) primitives for accessibility and [Lucide React](https://lucide.dev/guide/packages/lucide-react) for icons.
+- **Routing:** [React Router](https://reactrouter.com/) for client-side navigation.
+- **Linting:** [ESLint](https://eslint.org/) for code quality.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these instructions to get a local copy of the project up and running.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/en) (version 18.x or higher)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
+
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/your-username/github-explorer.git
+    cd github-explorer
+    ```
+
+2.  **Install dependencies:**
+    ```sh
+    npm install
+    ```
+
+### Running the Development Server
+
+To start the local development server, run the following command:
+
+```sh
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser to see the application.
+
+### Building for Production
+
+To create a production-ready build, run:
+
+```sh
+npm run build
+```
+
+This will create a `dist` folder with the optimized and minified files. You can preview the production build locally with `npm run preview`.
+
