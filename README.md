@@ -16,7 +16,7 @@ A  web application for exploring GitHub profiles and repositories. Search for us
 
 - **Frontend:** [React](https://react.dev/) with [Vite](https://vitejs.dev/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/) for utility-first styling.
-- **UI Components:** Built with [Radix UI](https://www.radix-ui.com/) primitives for accessibility and [Lucide React](https://lucide.dev/guide/packages/lucide-react) for icons.
+- **UI Components:** Built with [Shadcn](https://ui.shadcn.com/) primitives for accessibility and [Lucide React](https://lucide.dev/guide/packages/lucide-react) for icons.
 - **Routing:** [React Router](https://reactrouter.com/) for client-side navigation.
 - **Linting:** [ESLint](https://eslint.org/) for code quality.
 
